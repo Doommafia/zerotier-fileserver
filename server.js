@@ -5,7 +5,7 @@ const fs = require('fs');
 
 const app = express();
 const PORT = 25565; // Minecraft port for familiarity, you can use any open port
-const ZEROTIER_IP = '10.147.17.187';
+const ZEROTIER_IP = '10.174.66.25';
 const FILES_DIR = path.join(__dirname, 'files');
 
 if (!fs.existsSync(FILES_DIR)) {
